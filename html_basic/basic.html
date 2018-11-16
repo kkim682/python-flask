@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <!--
+        head tag contains meta data
+        linking to CSS files or javascript files
+    -->
+    <head>
+        <meta charset="utf-8">
+        <title>This is the title!</title>
+    </head>
+    <body>
+        <!--
+            <br/> - for next line
+            headings tag
+                <h1></h1> ... <hn></hn>
+            paragraph tag
+                <p></p>
+                inline tag
+                    <strong></strong> - bold style
+                    <em></em> - italic style
+            list tag
+                <ul></ul> - unordered list
+                <ol></ol> - ordered list
+                    <li></li> - list item
+            div & spans - for segment portion to apply different CSS
+                <div class=""></div> - for large portion
+                <span class=""></span> - for small portion
+            hyperlink tag
+                <a href=""></a>
+            form & input & submit tag
+                <form class="" action="index.html" method="post">
+                    action : redirect to this
+                    method : post or get
+                </form>
+                <input type="email" name="" value="">       - auto chack email form
+                <input type="password" name="" value="">    - invisible
+                <input type="color" name="" value="">       - color input
+                <input type="submit" name="" value="">
+                <input type="radio" name="" value="">
+                    - if multiple radio input tags share the same name,
+                      select one from the same name input tags
+                      if several input tags have each unique name,
+                      multi selection is allowed
+                - submitting the form information
+                    GET - send back the information to action URL
+                    POST - 
+                <form>
+            label tag
+                <label for="emailtag"></label> - it matches with for & id
+                <input id="emailtag" ...
+            select & option tag - drop down menu
+                <select>
+                    <option></option>
+                </select>
+            textarea
+                <textarea name="" rows="" cols=""></textarea>
+        -->
+        <h1>Heading One!</h1>
+        <p>a paragraph <strong>bold</strong> <em>italic</em></p>
+        <ul>
+            <li>first item</li>
+        </ul>
+        <ol>
+            <li>first item</li>
+        </ol>
+        <ol>
+            <li>first item</li>
+            <ul>
+                <li>first item</li>
+            </ul>
+        </ol>
+        <div class="">
+            <h1>div heading</h1>
+            <p>dis stuff <span class="">span portion</span></p>
+        </div>
+        <a href="different.html">go to different page</a>
+        <br/>
+        <a href="form.html">go to form tag page</a>
+    </body>
+</html>
