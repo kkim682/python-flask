@@ -1,0 +1,61 @@
+/*
+    class - apply CSS style to multiple elements
+    id - apply CSS style to a single element
+
+    css for tag < css for class or id
+        - class or id css overwrites the tag css
+        .class {...}
+        #id {...}
+*/
+body{
+    background: url(https://images.unsplash.com/photo-1520087619250-584c0cbd35e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=46133220eb9fb8b0d0f308e6c2d501ca&auto=format&fit=crop&w=700&q=60);
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:blue;
+    font-family: monospace;
+}
+
+li{
+    color: rgb(30,200,0);
+}
+
+p{
+    color: #eab01c;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#singledout{
+    color: red;
+}
+#firstDivIn{
+    color: black;
+}
+
+h4{
+    color:rgba(13,90,140,1)
+}
+
+/* border: orange 2px dashed; */
+div{
+    background: white;
+    border: orange;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+.firstDiv{
+    color: blue;
+}
+.secondDiv{
+    background-color: yellow;
+}
+
+span{
+    background: grey;
+    color: black;
+}
